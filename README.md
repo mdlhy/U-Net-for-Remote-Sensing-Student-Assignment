@@ -181,4 +181,3 @@ python predict.py -i data/test/2_998.JPG data/test/2_999.JPG -m checkpoints/CP_e
 
 本项目基于MIT协议开源，详见LICENSE文件。
 
-本项目基于MIT协议开源，详见LICENSE文件。
