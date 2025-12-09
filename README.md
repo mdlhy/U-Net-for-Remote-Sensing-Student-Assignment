@@ -166,6 +166,19 @@ python predict.py -i data/test/2_998.JPG data/test/2_999.JPG -m checkpoints/CP_e
 - 这个成绩表明模型能够准确地分割遥感图像中的建筑物，具有较高的分割精度
 - 预训练模型下载链接：[checkpoints.zip](https://pan.baidu.com/s/1a-RmIIveSshcmSnxJtkgXQ?pwd=u9s5)
 
+7. 效果展示 (Visualization)
+
+以下是模型在测试集上的实际预测结果：
+### 结果示例 1
+![建筑物分割详情](prediction_results/2_998_result.jpg)
+*图说明：左侧为原始遥感图像，中间为模型预测掩码，右侧为叠加显示效果。*
+
+### 结果示例 2
+![复杂场景表现](prediction_results/2_999_result.jpg)
+*图说明：左侧为原始遥感图像，中间为模型预测掩码，右侧为叠加显示效果。*
+
 开源协议
+
+本项目基于MIT协议开源，详见LICENSE文件。
 
 本项目基于MIT协议开源，详见LICENSE文件。
